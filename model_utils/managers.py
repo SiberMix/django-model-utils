@@ -11,7 +11,7 @@ except ImportError:
 from django.core.exceptions import ObjectDoesNotExist
 
 from django.db.models.constants import LOOKUP_SEP
-from django.utils.six import string_types
+from six import string_types
 
 
 class InheritanceIterable(ModelIterable):
