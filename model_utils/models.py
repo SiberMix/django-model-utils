@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import django
 from django.core.exceptions import ImproperlyConfigured
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 if django.VERSION >= (1, 9, 0):
     from django.db.models.functions import Now
     now = Now()
